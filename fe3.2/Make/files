@@ -1,0 +1,5 @@
+multiRelativeGgiFvMesh/relativeRotor.C
+multiRelativeGgiFvMesh/multiRelativeFvMesh.C
+relativeMotionGgiFvMesh/relativeMotionGgiFvMesh.C
+
+LIB = $(FOAM_LIBBIN)/libdynamicRelativeFvMesh

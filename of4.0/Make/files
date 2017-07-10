@@ -1,0 +1,6 @@
+multiBodyRelativeMotionFvMesh/multiBodyRelativeMotionFvMesh.C
+
+solidBodyMotionFunctions = multiBodyRelativeMotionFvMesh/solidBodyMotionFunctions
+$(solidBodyMotionFunctions)/oscillatingPhasedRotatingMotion/oscillatingPhasedRotatingMotion.C
+
+LIB = $(FOAM_USER_LIBBIN)/librelativeDynamicFvMesh
